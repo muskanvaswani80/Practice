@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <center></center>
+    <body>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+
+        <form action="thanks.html">
+            <fieldset>
+                <legend>Registration Form</legend>
+            <label for="name">Name:</label><br>
+            <input id="name"type=""text><br>
+            <label for="pass">password:</label>
+            <input id="pass"type=""text><br>
+            <label for="add">Address:</label>
+            <input id="add"type=""text><br>
+            <label for="gender">gender:</label>
+            <input id="gender"name="gender"type="radio">male
+            <input id="gender"name="gender"type="radio">female
+            <input id="gender"name="gender"type="radio">other
+            <br>
+            <label for="hob">hobbies:</label>
+            <input type="checkbox">cricket
+            <input type="checkbox">ludo
+            <input type="checkbox">batminton
+            <input type="checkbox">uno
+            <br>
+            <input type="file">
+            <br>
+            <input for=""">city:</label>
+            <select name=""id="">
+                <option value="0">celect city</option>
+                <optgroup label="under 50km">
+                    <option value="Nagpur">nagpur</option>
+                    <option value="wardha">wardhi</option>
+                    </optgroup>
+                    <optgroup label="under 50km">
+                        <option value="delhi">delhi</option>
+                    </optgroup>
+                    </select>
+                    <br>
+                    <input type="submit" value="click me">
+
+
+        </form>
+    </body>
+</html>
