@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Table2</title>
+    </head>
+    <body>
+        <table cellspacing="10px" cellpadding="10x"  
+        <table border="10">
+            <caption><b>Favorite and Least Favroite Things</b></caption>
+            <thead>
+                <tr>
+                    <th> </th>
+                    <th> </th>
+                    <th>Bob</th>
+                    <th>Alice</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Favorite</td>
+                    <td>Colour</td>
+                    <td>pink</td>
+                    <td>purple</td>
+
+                    
+                </tr>
+
+                <tr>
+                    <td>Flavour</td>
+                    <td>chocolate</td>
+                    <td>mint</td>
+                </tr>                
+                <tr>
+                    <td rowspan="2">Least Favorite</td>
+                    <td>Colour</td>
+                    <td>yellow</td>
+                    <td>blue</td>
+                </tr>
+                <tr>
+                    <td>Flavour</td>
+                    <td>strawberry</td>
+                    <td>vanela</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </body>
+</html>
